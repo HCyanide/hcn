@@ -1,0 +1,22 @@
+/* Import fonts */
+
+@import url(../css/fonts.css);
+
+/*nav*/
+
+.nav-header .nav-menu .navbar .navbar-brand{
+    padding: 0.2rem 0.5rem;
+}
+
+.nav-header .nav-menu .navbar{
+    padding: 1rem 10rem;
+}
+
+.nav-header .nav-menu .nav-item .nav-link{
+    font-family: Ubuntu-regular;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1rem;
+    color: black;
+}
+/*nav*/
