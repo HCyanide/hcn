@@ -1,6 +1,7 @@
 /* Import fonts */
 
 @import url(../css/fonts.css);
+@import url(../variables/var.css);
 
 /*nav*/
 
@@ -13,10 +14,17 @@
 }
 
 .nav-header .nav-menu .nav-item .nav-link{
-    font-family: Ubuntu-regular;
+    font-family: Ver(--ubuntu);
     text-transform: uppercase;
     font-weight: 500;
-    padding: 1rem;
-    color: black;
+    color: var(--text-color);
 }
+
+.nav-header .nav-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
 /*nav*/
